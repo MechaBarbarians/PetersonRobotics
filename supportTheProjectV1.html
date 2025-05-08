@@ -3,7 +3,118 @@
 <head>
   <meta charset="UTF-8">
   <title>Support | Peterson’s Robotics & Innovation</title>
-  <link rel="stylesheet" href="css/style.css">
+  <style>
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: #e0e0e0;
+}
+a {
+  color: #00ff00;
+  text-decoration: none;
+}
+a:hover {
+  color: #6c2bd9;
+}
+
+/* Header */
+header {
+  background: #000;
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  border-bottom: 2px solid #00ff00;
+}
+header .logo {
+  height: 60px;
+}
+nav {
+  margin-left: auto;
+  display: flex;
+  gap: 32px;
+}
+nav a {
+  color: #e0e0e0;
+  font-weight: 500;
+}
+nav a.active {
+  color: #6c2bd9;
+}
+
+/* Main */
+main {
+  max-width: 1000px;
+  margin: 32px auto;
+  padding: 0 32px;
+}
+
+/* Hero */
+#hero {
+  text-align: center;
+  padding: 64px 0;
+}
+#hero h1 {
+  font-size: 2.5rem;
+  color: #6c2bd9;
+  margin-bottom: 16px;
+}
+#hero p {
+  font-size: 1.125rem;
+  margin-bottom: 24px;
+}
+.button {
+  background: #6c2bd9;
+  color: #fff;
+  padding: 12px 32px;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Cards */
+#cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  margin-top: 32px;
+}
+.card {
+  background: #1e1e1e;
+  border: 1px solid #00ff00;
+  border-radius: 8px;
+  padding: 24px;
+  text-align: center;
+}
+.card h2 {
+  color: #6c2bd9;
+  margin-bottom: 16px;
+}
+.card p {
+  margin-bottom: 16px;
+}
+
+/* Sections */
+section {
+  margin-bottom: 48px;
+}
+h2 {
+  font-size: 1.75rem;
+  color: #6c2bd9;
+  margin-bottom: 16px;
+}
+
+/* Footer */
+footer {
+  background: #000;
+  text-align: center;
+  padding: 16px 0;
+  border-top: 1px solid #333;
+  color: #777;
+  font-size: 0.875rem;
+}
+</style>
 </head>
 <body>
   <header>
@@ -17,7 +128,7 @@
   </header>
   <main>
     <h1>Support Our Mission</h1>
-    <p>Your contributions enable prototype development, field testing, and open-source publication. 100% of funds are reinvested into R&D, community programs, and educational outreach.</p>
+    <p>Your contributions enable R&D, field tests, and open-source publishing. All proceeds reinvested.</p>
     <a href="https://www.gofundme.com/f/fuel-the-future-help-build-spider-v1" class="button">Fuel the Future</a>
   </main>
   <footer>
